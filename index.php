@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div id="root">
+	
 
 		<div class="container">
             <h3>Scrivi il tuo testo</h3>
@@ -21,9 +21,11 @@
                 <h3>Scrivi la brutta parola</h3>
                 <input id="your-badword" type="textarea" name="your-badword">
                 <button>Invia</button>
+                <h3>Il tuo Testo</h3>
+                <p name="your-text-censored"></p>
             </form>
 		</div>
-	</div>
+	
 
 </body>
 
