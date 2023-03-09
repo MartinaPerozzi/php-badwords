@@ -14,10 +14,12 @@
 	<div id="root">
 
 		<div class="container">
-            <h2>Scrivi il tuo testo</h2>
+            <h3>Scrivi il tuo testo</h3>
             <form action="./badwords.php" method="GET">
                 <label for="your-text"></label>
                 <input id="your-text" type="textarea" name="your-text">
+                <h3>Scrivi la brutta parola</h3>
+                <input id="your-badword" type="textarea" name="your-badword">
                 <button>Invia</button>
             </form>
 		</div>
