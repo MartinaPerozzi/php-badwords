@@ -11,8 +11,6 @@
 </head>
 
 <body>
-	
-
 		<div class="container">
             <h3>Scrivi il tuo testo</h3>
             <form action="./badwords.php" method="GET">
@@ -23,7 +21,6 @@
                 <button>Invia</button>
             </form>
 		</div>
-	
 
 </body>
 
