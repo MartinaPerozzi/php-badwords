@@ -29,7 +29,7 @@ $replaced= str_replace($bad_word, "***", $your_text);
             <p class="border-2 border-indigo-600 p-2">
                 <?php echo $your_text ?>
             </p>
-             <h3 class="uppercase font-bold leading-10" >La lunghezza del tuo Testo è di  <strong> <?= strlen($your_text) ?> </strong></h3>
+             <h3 class="uppercase font-bold leading-10" >La lunghezza del tuo Testo è di  <strong> <?= strlen($your_text) ?> </strong> caratteri</h3>
            
             <h3 class="uppercase font-bold leading-10" >La brutta parola</h3>
             <p class="border-2 border-indigo-600 p-2">
@@ -39,7 +39,7 @@ $replaced= str_replace($bad_word, "***", $your_text);
             <p class="text-xl border-2 border-indigo-600 p-2" name="your-text-censored">
                 <?php echo $replaced ?>
             </p>
-             <h3 class="uppercase font-bold leading-10" >La lunghezza del tuo Testo censurato è di  <strong> <?= strlen($replaced) ?> </strong></h3>
+             <h3 class="uppercase font-bold leading-10" >La lunghezza del tuo Testo censurato è di  <strong> <?= strlen($replaced) ?>  </strong> caratteri</h3>
 		</div>
 
 </body>
